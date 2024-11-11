@@ -1,0 +1,16 @@
+    /* header and footer with auto-height main content */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 60px 1fr 60px;
+ 
+}
+header, footer {
+  background-color: #333;
+  color: white;
+  text-align:   center;
+  line-height: 60px; /* Fixed height for header and footer */
+}
