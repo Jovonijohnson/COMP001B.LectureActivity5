@@ -14,3 +14,7 @@ header, footer {
   text-align:   center;
   line-height: 60px; /* Fixed height for header and footer */
 }
+main {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr; /* Nested grid with nav, main content, and sidebar */
+    gap: 10px;
