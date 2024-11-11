@@ -5,16 +5,21 @@ body {
     padding: 0;
     height: 100vh;
     display: grid;
-    grid-template-rows: 60px 1fr 60px;
- 
+    grid-template-rows: 50px 1fr 50px;
 }
 header, footer {
-  background-color: #333;
-  color: white;
+  background-color: #020202;
+  color: rgb(247, 242, 242);
   text-align:   center;
-  line-height: 60px; /* Fixed height for header and footer */
+  line-height: 50px; /* Fixed height for header and footer */
 }
 main {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr; /* Nested grid with nav, main content, and sidebar */
-    gap: 10px;
+    gap: 11px;
+}
+nav, .content, .sidebar
+ {
+  padding: 20px;
+  background-color: #f3f3f3;
+}
