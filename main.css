@@ -7,19 +7,25 @@ body {
     display: grid;
     grid-template-rows: 50px 1fr 50px;
 }
+/* Fixed height for header and footer */
 header, footer {
   background-color: #020202;
   color: rgb(247, 242, 242);
   text-align:   center;
-  line-height: 50px; /* Fixed height for header and footer */
+  line-height: 50px; 
 }
+/* Nested grid with nav, main content, and sidebar */
 main {
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr; /* Nested grid with nav, main content, and sidebar */
+    grid-template-columns: 1fr 2fr 1fr; 
     gap: 11px;
 }
-nav, .content, .sidebar
+nav, .content, .aside
  {
   padding: 20px;
+  background-color: #f3f3f3;
+}
+/* added aside for 3rd column */
+aside{
   background-color: #f3f3f3;
 }
